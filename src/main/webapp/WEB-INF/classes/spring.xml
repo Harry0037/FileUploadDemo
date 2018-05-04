@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--启用包扫描，扫描指定包下的Java类 在类上面拥有@Component @Controller @Service @Repositry  -->
+    <!-- 这个里面一般只配置mvc之外的Bean管理 -->
+</beans>
