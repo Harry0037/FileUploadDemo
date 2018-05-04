@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="FileUploadDemo:war exploded">
-    <output-path>$PROJECT_DIR$/out/FileUploadDemo</output-path>
-    <root id="root">
+  <artifact type="war" name="FileUploadDemo">
+    <output-path>$PROJECT_DIR$/artifacts/FileUploadDemo</output-path>
+    <root id="archive" name="FileUploadDemo.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="FileUploadDemo" />
@@ -35,8 +35,6 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.4" />
-          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="FileUploadDemo/web/Web" />
