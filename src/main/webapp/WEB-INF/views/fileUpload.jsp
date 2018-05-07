@@ -80,8 +80,8 @@
       for(var i = 0; i < files.length; i++){
         var file = files[i];
         <!--progress进度条组件-->
-        backHtml += "<ul><li style=\"width: 30%\">"+file.name+"</il><li style=\"width: 68%\"><progress id = \"pro\"+i+max=\"100\" value=\"0\"></progress><label id='lab"+i+"'></label></li></ul>";
-        // 每一个文件单独创建一个商城进程
+        backHtml += "<ul><li style=\"width: 30%\">"+file.name+"</il><li style=\"width: 68%\"><progress id = 'pro"+i+"' max=\"100\" value=\"0\"></progress><label id='lab"+i+"'></label></li></ul>";
+        // 每一个文件单独创建一个上传进程
         fileUp(file, i);
       }
 
